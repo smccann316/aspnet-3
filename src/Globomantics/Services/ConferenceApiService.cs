@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Speaker.Services
+namespace Globomantics.Services
 {
-    public class ConferebnceAPIService : IConferenceService
+    public class ConferenceApiService: IConferenceService
     {
     }
 }

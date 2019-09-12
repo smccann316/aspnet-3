@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Speaker
+namespace Globomantics
 {
     public class Program
     {
@@ -20,6 +20,7 @@ namespace Speaker
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+
                     webBuilder.UseStartup<Startup>();
                 });
     }
